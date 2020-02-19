@@ -1,0 +1,25 @@
+{
+  "name": "ocb-coin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marijo Radman",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^2.4.0",
+    "@truffle/hdwallet-provider": "^1.0.25",
+    "bip39": "^3.0.2",
+    "truffle-hdwallet-provider": "^1.0.0-web3one.5"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "ethereumjs-wallet": "^0.6.3",
+    "truffle-wallet-provider": "0.0.5"
+  }
+}
